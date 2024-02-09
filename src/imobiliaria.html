@@ -10,22 +10,61 @@
 </head>
 
 <style>
-    .cabecalho{
+    .cabecalho{/*imobiliaria.html*/
         background-color: black;
     }
-    .imagem{
+    .imagem{/*imobiliaria.js*/
         width: 320px;
         height: 300px;
     }
-    .pagina{
+    .pagina{/*imobiliaria.html*/
+        background-color: white;
+    }
+    .local{/*imobiliaria.js*/
+        margin-top: 50px
+    }
+    .texto1{/*imobiliaria.html*/
+        margin-top: 50px;
+    }
+    .conteudo2{/*imobiliaria.js*/
+        margin-top: 10px;
+    }
+    .valorecodigo{/*imobiliaria.js*/
+        text-align: left;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .borda{/*imobiliaria.js*/
+        margin-top: 20px;
+    }
+    .rodape{/*imobiliaria.html*/
+        margin-top: 10px;
         background-color: black;
     }
+    .textorodape{/*imobiliaria.html*/
+        margin-top: 10px;
+    }
+    .btn1{/*imobiliaria.js*/
+        margin-bottom: 10px;
+        color: #f7b12f;
+        font-family: 'Courier New', Courier, monospace,;
+
+    }
+    .textrodape1{
+        margin-top: 25px;
+        line-height: 0.5;
+    }
+    .direitos{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+     }
 </style>
 
 <header class="cabecalho pb-2 mb-4 border-bottom border-black p-2">
     <ul class="nav nav-underline justify-content-center">
         <li>
-            <a class="nav-link text-white " href="imobiliaria.js">Home
+            <a class="nav-link text-white " aria-current="page" href="imobiliaria.html">Home
             </a>
         </li>
         <li>
@@ -41,7 +80,7 @@
             </a>
         </li>
         <li>
-            <a class="nav-link text-white " href="imobiliaria.html">Sobre Nós
+            <a class="nav-link text-white " href="sobrenos.html">Sobre Nós
             </a>
         </li>
     </ul>
@@ -50,7 +89,7 @@
 <body class="pagina">
 
     <div class="container">
-        <div class="texto1 text-white text-center fst-italic">
+        <div class="texto1 text-black text-center fst-italic">
             <h4>Esses são nossos destaques!</h4>
             <p>Para comprar ou alugar</p>
         </div>
@@ -59,7 +98,22 @@
     </div>
 
 
+    <footer class="rodape mt-5">
+        <div class="container display d-flex justify-content p-2">
+            <div class="textorodape col-3">
+                <h5 class="text-white">Institucional</h5>
+                <div class="textrodape1">
+                    <p class="paragrafo text-white">Imóveis Romão</p>
+                    <p class="paragrafo text-white">Av.Pinheiros, 6261</p>
+                    <p class="paragrafo text-white">andar 12</p>
+                    <p class="paragrafo text-white">Cep: 0888-820, SP</p>
+                </div>
+            </div>
+            <p class="direitos text-white text-center mx-auto">Todos os Direitos Reservados - 2024</p>
 
+        </div>
+
+    </footer>
 
 
 
